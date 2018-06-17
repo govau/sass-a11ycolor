@@ -1,6 +1,6 @@
 {
 	"name": "sass-a11ycolor",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Generate the nearest accessible color with Sass.",
 	"scripts": {
 		"prepublish": "npm run build && npm run generate-doc && npm run test",
@@ -54,8 +54,8 @@
 		"cfonts": "^1.1.3",
 		"chalk": "^2.3.0",
 		"glob": "^7.1.2",
-		"node-sass": "^4.5.3",
-		"sassdoc": "^2.4.0",
+		"sass": "^1.5.1",
+		"sassdoc": "^2.5.0",
 		"watch": "^1.0.2"
 	},
 	"dependencies": {}
